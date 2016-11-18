@@ -1,0 +1,223 @@
+*{
+	font-family: 'Oxygen', sans-serif;
+}
+
+.container-fluid{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+
+.logo{
+	width: 60px;
+	height: 40px;
+	margin-top: -18%;
+}
+
+.bg-home{
+	background-image: url("../img/bg-home2.png");
+	width: 100%;
+	height: 800px;
+	background-size: 100% 100%;
+ 	background-repeat: no-repeat;	
+ 	margin-left:-10%;
+}
+
+.cont-home{
+	margin-left: 80%;
+	margin-top: 9%;
+	width: 25%;
+	height: 30%;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.frase{
+	margin-top: 12%;
+	margin-left: 2%;
+}
+
+h1{
+	font-size: 4em;
+}
+
+.foot{
+	margin-left: 5%;
+	margin-top: 15%;
+}
+
+.fw-b{
+	font-weight: bold;
+}
+
+.titulo{
+	margin-left: -40%;
+}
+#titulo{
+	margin-left: -32%;
+	margin-bottom: 0;
+	padding-bottom: 3%;
+}
+
+.cont-descripcion{
+	width: 505px;
+	height: 200px;
+	margin-left:10%;
+}
+
+#foto{
+	margin-top: -12%;
+	margin-right: -15%;
+}
+
+.subtitulo{		/* Subtitulo Habilidades técnicas */
+	margin-top: 5%;
+	margin-left: 50%;
+	padding-bottom: 2%;
+}
+
+#subtitulo2{
+	padding-top: 4%;
+	margin-bottom: 4%;
+	margin-left: -55%;
+}
+
+.vertical {
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	transform: rotate(-90deg);
+	margin:20% 1% 5% 1%;
+	padding: 1% 1%;
+}
+
+.progress-bar-purple {
+      /* background-color: #7F00FF !important; */
+      background-color: #440084 !important;
+}
+
+.progress-bar-pink {
+      /* background-color: #FF00EC !important; */
+      background-color: #840077 !important;
+
+}
+
+.progress-bar-green {
+      /* background-color: #B7FF00 !important; */
+      background-color: #000384 !important;
+}
+
+.progress-bar-blue {
+      /* background-color: #00A2FF !important; */
+      background-color: #660084 !important;
+}
+
+.progress-bar-orange {
+      /* background-color: #E56C00 !important; */
+      background-color: #210084 !important;
+}
+
+.bg-portfolio{
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-color: #000;
+}
+
+.text-white{
+	color:#FFF;
+}
+
+.proy{
+	width: 350px;
+	height: 250px;
+	padding: 2% 2%;
+	margin-left: 10%;
+}
+
+.section{
+	text-align:center;
+}
+
+#section1,
+#section2,
+#section3
+#section4{
+	background-size: cover;
+}
+
+#section1{
+	background-color: white;
+	padding: 6% 0 0 0;
+}
+
+
+#section2{
+	background-color: white;
+	padding: 6% 0 0 0;
+}
+
+#section3{
+	background-color: black;
+	padding: 6% 0 0 0;
+}
+
+#section4{
+	background-color: white;
+	padding: 6% 0 0 0;
+}
+
+.capital{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+div.scroll {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body{
+	display: hidden;
+}
+
+.progress{
+	margin-bottom: 1%;
+}
+
+.avanzado{
+	width: 70%;
+}
+
+.intermedio{
+	width: 40%;
+}
+
+.basico{
+	width: 20%;
+}
+
+.icon{
+	width: 70%;
+	height: 70%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+#img-slide1{
+	margin-left: 15%;
+	width: 35%;
+	height: 35%;
+}
+
+#img-slide2{
+	margin-left: 2%;
+	width: 35%;
+	height: 35%;
+}
