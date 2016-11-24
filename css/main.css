@@ -7,6 +7,10 @@
 	padding: 0px!important;
 }
 
+#nombre{
+	font-weight: bold;
+}
+
 .logo{
 	width: 60px;
 	height: 40px;
@@ -142,7 +146,8 @@ h1{
 #section1,
 #section2,
 #section3
-#section4{
+#section4
+#section5{
 	background-size: cover;
 }
 
@@ -167,9 +172,9 @@ h1{
 	padding: 6% 0 0 0;
 }
 
-.capital{
-	font-size: 2em;
-	font-weight: bold;
+#section5{
+	background-color: white;
+	padding: 6% 0 0 0;
 }
 
 div.scroll {
@@ -220,4 +225,77 @@ body{
 	margin-left: 2%;
 	width: 35%;
 	height: 35%;
+}
+
+/* .capital {
+  display:block;
+  margin:-20px 0 0 0px;
+  float:left;
+  font-size:6.2em;
+  font-family:Georgia;
+} */
+
+.container{
+	width: 60% !important;
+}
+
+.btn-md{
+	margin-top: 4%;
+	background-color: #000;
+	color: #FFF;
+}
+
+.text-blog{
+	font-size: 1.2em;
+}
+
+.cont-blog{
+	width: 95%;
+}
+
+.bg-contact{
+	background-image: url("../img/bg-contact.png");
+	background-size: 50% 90%;
+ 	background-repeat: no-repeat;	
+ 	margin:10% 0% 0% 25%;
+}
+
+#title-contact{
+	margin:0% 0% 0% -120%;
+}
+
+#icono1{
+	margin: 0% 0% 100% -80%;
+}
+
+#icono2{
+	margin: -50% 0% 100% -170%;
+}
+
+#icono3{
+	margin: -45% 0% 100% -230%;
+}
+
+#icono4{
+	margin: 0% 0% 0% -300%;
+}
+
+.hover:hover{ 		/* Agranda imagenes de contacto */
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.modal-cursor{
+	cursor: pointer;
+}
+
+.modal{
+	padding-top: 15%;
+}
+
+#frase-contact{
+	margin-top: -15%;
+	margin-left: 2%;
+	font-size: 1.5em;
+	font-weight: bold;
 }
