@@ -4,6 +4,9 @@ $(document).ready(function(){
 	  $hamburger.toggleClass("is-active");
 	  // Do something else, like open/close menu
 	});*/
+
+	carousel();		/*Disfruto de...*/
+
 	var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
 
     var hamburgers = document.querySelectorAll(".hamburger");
@@ -39,7 +42,7 @@ $(document).ready(function(){
 
 	$('#secciones').pagepiling({
 		menu: '#menu',
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
 		navigation: {
             'textColor': '#f2f2f2',
             'bulletsColor': '#ccc',
@@ -75,5 +78,86 @@ $(document).ready(function(){
 	  };
 	};
 
+	/*dropdown menu*/
+
+	$('ul.nav li.dropdown').hover(function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+	}, function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+	});
+
+	/*skills*/
+
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+
 })
 
+
+/* Slider */
+
+var myIndex = 1;
+
+var numeroImagen = 1;
+
+function carousel() {
+   
+	var extrano = (numeroImagen + 2);
+	if (extrano == 6 ) {
+		extrano = 1;
+	}
+
+	var imagen1 = "img/img"  + numeroImagen +  "slider.png";
+	var imagen2 = "img/img"  + (numeroImagen + 1) +  "slider.png";
+	var imagen3 = "img/img"  + extrano +  "slider.png";
+
+	$("#imgSlider1").attr("src",imagen1);
+	$("#imgSlider2").attr("src",imagen2);
+	$("#imgSlider3").attr("src",imagen3);
+
+	if (extrano == 1) {
+		numeroImagen = 1;
+	}
+
+	numeroImagen++;
+
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+
+/*Slider disfruto de*/
+
+//$('.slideshow').slick();
+
+
+/*function probar() {
+
+	$('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+}*/
